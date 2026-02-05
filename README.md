@@ -21,10 +21,10 @@ These scripts generate the figures and statistical results reported in the paper
 ### 2. Simulation Scripts (Data Generation)
 These scripts run the discrete agent-based simulations (grid-world). They are pre-configured to generate the CSV data files found in the `Data/` folder.
 
-*   **`CD_10.py`**: Standard Central Dispatch simulation (greedy matching).
+*   **`CD_10.py`**: Standard Central Dispatch simulation (greedy matching, 80x80 grid).
 *   **`SH_10.py`**: Street-Hailing simulation (random cruising + FIFO queues).
 *   **`CD_10_Batch.py`**: Batched Central Dispatch simulation (matches agents in parameterized time windows).
-*    **`CD_10_Batch.py`**: Batched Central Dispatch simulation (matches agents in parameterized time windows).
+*    **`CD_10_Small_Grid.py`**: Standard Central Dispatch simulation (greedy matching, 20x20 grid).
 
 ### 3. Data Files
 The `Data/` directory contains the simulation outputs used by the analysis scripts.
