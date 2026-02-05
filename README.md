@@ -33,11 +33,13 @@ The `Data/` directory contains the simulation outputs used by the analysis scrip
     *   `sim_scaling_SH.csv`
     *   `sim_scaling_CD.csv`
     *   `sim_scaling_CD_batched_w2.csv` (Batch window approx 0.6 min)
+    *   `sim_scaling_CD_small_grid.csv` (20x20 grid sim)
 
 *   **Distribution Data** (`sim_waits_*.csv`): Contains individual wait times for specific fleet sizes ($n_s=7000, n_d=6000$). Used for Q-Q plots and distributional analysis.
     *   `sim_waits_SH.csv`
     *   `sim_waits_CD.csv`
     *   `sim_waits_CD_batched_w2.csv`
+    *   `sim_waits_CD_small_grid.csv`
 
 ## Requirements
 
