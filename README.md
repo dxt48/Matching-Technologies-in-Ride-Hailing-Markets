@@ -24,6 +24,7 @@ These scripts run the discrete agent-based simulations (grid-world). They are pr
 *   **`CD_10.py`**: Standard Central Dispatch simulation (greedy matching).
 *   **`SH_10.py`**: Street-Hailing simulation (random cruising + FIFO queues).
 *   **`CD_10_Batch.py`**: Batched Central Dispatch simulation (matches agents in parameterized time windows).
+*    **`CD_10_Batch.py`**: Batched Central Dispatch simulation (matches agents in parameterized time windows).
 
 ### 3. Data Files
 The `Data/` directory contains the simulation outputs used by the analysis scripts.
